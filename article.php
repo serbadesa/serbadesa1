@@ -29,23 +29,20 @@
 				
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-					<li  class="active">
+					<li>
 						<a href="index.php">Serba Desa</a>
 						</li>
-						<li>
+						<li class="active">
 							<a href="article.php">Article</a>
 						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transaksi<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="registrasiPengguna/pendaftaran.php">Penjualan hasil panen</a>
+									<a href="pendaftaran/tambah.php">Pendistribusian panen</a>
 								</li>
 								<li>
-									<a href="registrasiPengguna/pendaftaran.php">Pendistribusian panen</a>
-								</li>
-								<li>
-									<a href="registrasiPengguna/pendaftaran.php">Pembelian bibit unggul</a>
+									<a href="pendaftaran/tambah.php">Pembelian bibit unggul</a>
 								</li>
 							</ul>
 						</li>
@@ -56,7 +53,7 @@
 									<a href="#"></a>
 								</li>
 								<li>
-									<a href="#">Kontak</a>
+									<a href="data.php">Kontak</a>
 								</li>
 								<li>
 									<a href="galery.php">Galery</a>
@@ -84,7 +81,7 @@
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="login.php">Login</a>
+							<a href="pendaftaran/login.php">Login</a>
 						</li>
 						<li>
 							 <a href="registrasiPengguna/pendaftaran.php">Daftar</a>

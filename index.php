@@ -39,10 +39,10 @@
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transaksi<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="registrasiPengguna/pendaftaran.php">Pendistribusian panen</a>
+									<a href="pendaftaran/tambah.php">Pendistribusian panen</a>
 								</li>
 								<li>
-									<a href="registrasiPengguna/pendaftaran.php">Pembelian bibit unggul</a>
+									<a href="pendaftaran/tambah.php">Pembelian bibit unggul</a>
 								</li>
 							</ul>
 						</li>
@@ -81,10 +81,10 @@
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="login.php">Login</a>
+							<a href="login-bootstrap/login.php">Login</a>
 						</li>
 						<li>
-							 <a href="registrasiPengguna/pendaftaran.php">Daftar</a>
+							 <a href="pendaftaran/tambah.php">Daftar</a>
 						</li>
 					</ul>
 				</div>

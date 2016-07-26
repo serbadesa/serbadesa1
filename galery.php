@@ -29,7 +29,7 @@
 				
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-					<li  class="active">
+					<li>
 						<a href="index.php">Serba Desa</a>
 						</li>
 						<li>
@@ -39,13 +39,10 @@
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transaksi<strong class="caret"></strong></a>
 							<ul class="dropdown-menu">
 								<li>
-									<a href="index.php">Penjualan hasil panen</a>
+									<a href="pendaftaran/tambah.php">Pendistribusian panen</a>
 								</li>
 								<li>
-									<a href="index.php">Pendistribusian panen</a>
-								</li>
-								<li>
-									<a href="index.php">Pembelian bibit unggul</a>
+									<a href="pendaftaran/tambah.php">Pembelian bibit unggul</a>
 								</li>
 							</ul>
 						</li>
@@ -56,10 +53,10 @@
 									<a href="#"></a>
 								</li>
 								<li>
-									<a href="#">Data</a>
+									<a href="data.php">Data</a>
 								</li>
 								<li>
-									<a href="#">Galery</a>
+									<a href="galery.php">Galery</a>
 								</li>
 								<li class="divider">
 								</li>
@@ -84,26 +81,11 @@
 					</form>
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="#">Login</a>
+							<a href="login-bootstrap/login.php">Login</a>
 						</li>
-						<li class="dropdown">
-							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pilihan<strong class="caret"></strong></a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Daftar</a>
-								</li>
-								<li>
-									<a href="#">Guest Only</a>
-								</li>
-								<li>
-									<a href="#"></a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#"></a>
-								</li>
-							</ul>
+
+						<li>
+							<a href="pendaftaran/tambah.php">Daftar</a>
 						</li>
 					</ul>
 				</div>
@@ -111,7 +93,7 @@
 			</nav>
 			<div class="page-header">
 				<h1>
-					Serba Desa<small>Karena Makanan sehat itu dari desa</small>
+					Serba Desa<small> Karena Makanan sehat itu dari desa</small>
 				</h1>
 			</div>
 			<div class="jumbotron">
